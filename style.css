@@ -24,12 +24,18 @@ main {
 .result {
   display: flex;
   flex-direction: column;
+  user-select: none;
 }
 input {
+  pointer-events: none;
   background-color: #000;
-  height: 3.5vw;
-  font-size: 2vw;
+  height: 3.5rem;
+  font-size: 1.5rem;
   color: #fff;
+  padding-inline: 7px;
+  width: auto;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 #inputF {
   text-align: end;
@@ -61,21 +67,31 @@ input {
   cursor: pointer;
   user-select: none;
 }
-.b:active{
-    background-color: rgb(211, 106, 88);
+.b:active {
+  background-color: rgb(211, 106, 88);
 }
-.t{
-    background-color: #6d6d6d;
+.t {
+  background-color: #6d6d6d;
 }
 .cT {
-    background-color: tomato;
+  /* background-color: green; */
+  /* background-color: white; */
 }
-.cT:active{
-    background-color: rgb(185, 109, 95);
+.fa-solid {
+  background-color: tomato;
+  height: 100%;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
-.eL{
-    width: 6.75rem;
-    border-radius: 20px;
-    height: 3.1rem;
-    margin-right: 1.4rem;
+.cT:active {
+  background-color: rgb(185, 109, 95);
+}
+.eL {
+  width: 6.75rem;
+  border-radius: 20px;
+  height: 3.1rem;
+  margin-right: 1.4rem;
 }
