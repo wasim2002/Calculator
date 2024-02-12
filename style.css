@@ -73,10 +73,6 @@ input {
 .t {
   background-color: #6d6d6d;
 }
-/* .cT {
-  background-color: green;
-  background-color: white;
-} */
 .fa-solid {
   background-color: tomato;
   height: 100%;
@@ -94,4 +90,7 @@ input {
   border-radius: 20px;
   height: 3.1rem;
   margin-right: 1.4rem;
+}
+#answer{
+  text-align: end;
 }
