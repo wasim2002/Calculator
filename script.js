@@ -36,7 +36,7 @@ allB.forEach((b) => {
             else if (e.target.classList[1] == "fa-equals" && symbole == true) {
                 inputValue = eval(inputValue)
                 inputField.value = inputValue
-                symbole = false
+                symbole = true
             }
         } else {
             symbole = true
